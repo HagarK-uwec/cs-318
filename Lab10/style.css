@@ -11,11 +11,12 @@ header{
 }
 nav>a{
     color: #000000;
-    background-color: rgb(245, 245, 245);
+    background-color: #528a4c;
     text-decoration: none;
     padding: 1rem 2rem;
     font-weight: 900;
     display: inline-block;
+    margin-top: .75rem;
 }
 nav>a:hover{
     color: #000000;
@@ -36,4 +37,46 @@ h3{
     text-align: center;
     background-size: cover;
     margin: 0;
+}
+h2{
+    background-color: #2f5c2b;
+    color: rgb(38, 53, 29);
+    padding: 1rem;
+    margin: 0;
+}
+section{
+    background-color: #86815f;
+    padding: 1rem 5%;
+}
+div{
+    padding: 0 0 .5rem 0;
+}
+img{
+    max-width: 100%;
+}
+header>img{
+    padding: 0 1rem .5rem 1rem;
+}
+@media (min-width:1000px){
+    header>img{
+        padding: 0 20rem 2rem 20rem;
+    }
+    section{
+        padding: 1rem 15%;
+    }
+    div{
+        width: 50%;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu h2{
+        flex-basis: 100%;
+    }
+    .story img{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
 }
