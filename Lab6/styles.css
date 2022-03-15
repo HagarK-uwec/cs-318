@@ -50,7 +50,7 @@ h2{
 }
 img{
     max-width: 100%;
-    width: 30rem, 100%;/*can only have one number with width*/
-    float: left, none;/*can only have one value with float*/
+    width: 20rem;
+    float: none;
     margin: 0 1rem 1rem 0;
 }
