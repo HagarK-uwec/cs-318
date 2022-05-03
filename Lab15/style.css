@@ -45,11 +45,11 @@ body{
 @keyframes rise{
     from{
         bottom: 0;
-        transform: rotate(0), scale(1);
+        transform: rotate(0), scale(1);/*The comma is breaking this*/
     }
     to{
         bottom: 75%;
-        transform: rotate(180deg), scale(2);
+        transform: rotate(180deg), scale(2);/*The comma is breaking this*/
     }
 }
 .rover:after{
