@@ -1,0 +1,61 @@
+body{
+    background-color: #fdf6e4;
+    font-family: 'Poppins', sans-serif;;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+.social img{
+    height: 2rem;
+    margin: .25rem;
+}
+.hamburger{
+    width: 40px;
+    padding: .5rem;
+}
+.hamburger hr{
+    margin: .75rem 0;
+    border: 2px solid #f9545b;
+}
+header>img{
+    width: 15rem;
+}
+.top{
+    background-image: url(images/croissant.jpg);
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+.top p{
+    margin: 0;
+}
+a>img{
+    width: 2rem;
+}
+.goods>img{
+    width: 3rem;
+}
+.order>div{
+    width: 45%;
+    display: inline-block;
+    align-items: center;
+}
+.order>.goods{
+    width: 100%;
+    background-color: #fa7578;
+}
+h2{
+    color:#f9545b;
+}
+.order>.goods>h2{
+    color: white;
+}
+h3{
+    color: #f9545b;
+    text-align: center;
+}
+footer{
+    background-color: #2aac92;
+}
