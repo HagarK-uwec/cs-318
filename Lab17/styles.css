@@ -10,6 +10,32 @@ img{
     height: 2rem;
     margin: .25rem;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 5rem;
+    color: #f9545b;
+}
+header nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3rem;
+    border: 1px solid #f9545b;
+}
+header nav{
+    left: -100%;
+}
+header nav.show{
+    left: 0;
+}
 .hamburger{
     width: 40px;
     padding: .5rem;
@@ -38,13 +64,36 @@ a>img{
     width: 3rem;
 }
 .order>div{
-    width: 45%;
+    width: 35%;
     display: inline-block;
-    align-items: center;
+    background-color: white;
+    margin: .5rem 2.25%;
+    padding: 5%;
 }
 .order>.goods{
-    width: 100%;
+    width: unset;
     background-color: #fa7578;
+    display: block;
+}
+.hours{
+    background-color: white;
+    margin: 2.5%;
+    padding: 1rem;
+}
+.about{
+    background-color: white;
+    margin: 2.5%;
+    padding: 1rem;
+}
+.about>img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.hours>img{
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 h2{
     color:#f9545b;
@@ -58,4 +107,51 @@ h3{
 }
 footer{
     background-color: #2aac92;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.25rem 0 0 0;
+}
+.button, input[type=submit]{
+    padding: 1rem;
+    background-color: #f9545b;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1rem;
+    outline: none;
+    display: block;
+    border: none;
+    width: 100%;
+}
+.top>h2{
+    color: white;
+}
+@media (min-width:1000px){
+    .hamburger{
+        display: none;
+    }
+    header nav{
+        position: static;
+        background-color: unset;
+        width: unset;
+    }
+    header nav a{
+        border: none;
+        padding: 2rem;
+        display: inline-block;
+    }
+    header nav a:hover{
+        color: #fa7578;
+        text-decoration: underline;
+    }
+    .order>div{
+        width: 15%;
+    }
+    .about>div{
+        display: inline-block;
+    }
+    .about>div>img{
+        width: 20%;
+    }
 }
