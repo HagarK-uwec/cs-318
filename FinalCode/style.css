@@ -1,0 +1,206 @@
+body{
+    background-color: #a1d3ff;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+.head>img{
+    width: 15rem;
+    padding: 0 0 0 7rem;
+}
+.social img{
+    height: 2rem;
+    margin: .25rem;
+}
+h1{
+    text-align: center;
+}
+a{
+    background-color: #648fb5;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: #074882;
+    padding: 1rem .5rem 2rem .5rem;
+}
+.shop>div{
+    width: 45%;
+    display: inline-block;
+    margin: .5rem 2.25%;
+    vertical-align: top;
+}
+.donate>div{
+    width: 45%;
+    display: inline-block;
+    margin: .5rem 2.25%;
+    vertical-align: top;
+}
+.aboutus>div{
+    margin: .5rem 2.25%;
+    padding: 0 0 .5rem 0;
+}
+section{
+    background-color: white;
+    padding: 0;
+}
+footer{
+    background-color: #074882;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0 5rem 0;
+}
+.hours>div{
+    display: inline-block;
+    padding: 0.5rem;
+}
+.hours>.hnav{
+    width: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.location>img{
+    width: 90%;
+    padding: 0 1rem;
+    justify-content: center;
+}
+h2{
+    padding: 0 0 0 .5rem;
+}
+.hours>.day>li{
+    padding: 1rem;
+}
+.section{
+    padding: 1rem;
+}
+label, input[type=text], [type=locate], input[type=donate], input[type=location], input[type=serach], input[type=categories] textarea{
+    display: block;
+    margin: .5rem 0;
+    width: 90%;
+    padding: .5rem;
+    font-size: 1rem;
+}
+input[type=submit]{
+    background-color: #648fb5;
+    padding: 1rem;
+    display: inline-block;
+    border: 1px solid;
+    justify-content: end;
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+}
+input[type=submit]:hover{
+    text-decoration: underline;
+}
+.find{
+    padding: 1rem;
+}
+.shopping{
+    padding: 1rem;
+}
+.buying>div{
+    padding: 1rem;
+    border: 1px solid;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buying>div>img{
+    width: 15rem;
+}
+div{
+    padding: 0;
+}
+.map>img{
+    width: 95%;
+    padding: 1rem .75rem;
+    display: flex;
+    justify-content: center;
+}
+.locations>img{
+    width: 95%;
+    padding: .5rem .75rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+header>img{
+    width: 10rem;
+    align-items: center;
+    padding: 0 0 0 30%;
+}
+.news>div{
+    padding: .5rem;
+}
+.fact{
+    padding: .5rem;
+}
+.hours>p{
+    padding: 0 0 0 .75rem;
+}
+@media (min-width:1000px){
+    header{
+        display: inline-flex;
+        width: 100%;
+    }
+    .shop>div{
+        width: fit-content;
+    }
+    .donate>div{
+        width: max-content;
+    }
+    .locations>img{
+        padding: .5rem 2.5rem 1rem;
+    }
+    .map>img{
+        padding: .5rem 2.5rem 1rem;
+    }
+    .find{
+        padding: .5rem 0 .5rem 2.5rem;
+    }
+    header>img{
+        width: 7rem;
+        padding: 0 0 0 15%;
+    }
+    .navi{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .buying>div{
+        width: 42%;
+        margin: 1rem 2.5%;
+    }
+    h2{
+        margin: .75rem 0 0 .75rem;
+    }
+    .head{
+        padding: 0 0 0 10rem;
+    }
+    h1{
+        left: -20%;
+    }
+    header>div{
+        width: 100%;
+        display: inline-block;
+    }
+    .head>img{
+        width: 10rem;
+        padding: 0 0 0 10rem;
+    }
+    .section{
+        width: 100%;
+    }
+}
